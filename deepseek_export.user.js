@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         DeepSeek 聊天记录导出 (可视化轮次选择)
+// @name         DeepSeek 聊天记录导出
 // @namespace    http://tampermonkey.net/
 // @version      7.12
 // @description  可视化勾选轮次，自动同步输入框，完美另存为，支持 KaTeX，PDF 打印（彻底去思考/搜索块，修复纯图片消息与 AI 回复丢失，PDF 不再误隐藏 AI 回复）

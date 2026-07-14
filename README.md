@@ -1,4 +1,4 @@
-# DeepSeek 聊天记录导出 (可视化轮次选择)
+# DeepSeek 聊天记录导出
 
 一个 Tampermonkey (篡改猴) 脚本，用于将 DeepSeek 网页端的聊天记录导出为 Markdown 文件或 PDF 格式。
 

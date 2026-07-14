@@ -5,7 +5,7 @@
 ## 功能特点
 
 * **📥 对话选择与导出**
-  此插件支持将 DeepSeek 网页版的对话导出为 PDF 和 Markdown 文件，并且您可以自定义勾选需要的对话轮次进行导出。
+  此插件支持将 DeepSeek 网页版的对话导出为 PDF 和 Markdown 文件，并且您可以自定义勾选需要的对话轮次进行导出。同时，在导出时您可以自由选择文件的保存位置并对文件进行重命名。
 
 * **⏳ 首次加载提示**
   初次进入 DeepSeek 聊天界面加载时，可能会有 2-3 秒的轻微卡顿。加载完成后，界面右上角会自动显示 “导出MD” 和 “导出PDF” 按钮。
@@ -48,6 +48,6 @@
 
 ## 声明
 
-本项目基于 GitHub 上一位创作者的项目。**非常抱歉，由于我的疏忽，未能记下原作者的项目地址和作者名字，在此表达诚挚的歉意！**
+本项目基于 GitHub 创作者 [phoebusluckymail-cpu](https://github.com/phoebusluckymail-cpu) 的开源项目 [DeepSeek-Markdown-Tampermonkey](https://github.com/phoebusluckymail-cpu/DeepSeek-Markdown-Tampermonkey)。
 
-谨在此衷心感谢他的无私奉献与杰出贡献。如果您（原作者）看到了本项目，欢迎随时联系我进行署名或添加原项目链接。
+在此对原作者的开源精神、无私奉献与杰出贡献致以最诚挚的感谢！

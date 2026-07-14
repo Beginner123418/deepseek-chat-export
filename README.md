@@ -16,24 +16,38 @@
 
 ## 安装方式
 
-### 方式一：直接链接安装（推荐，最便捷）
-如果您已经安装了 Tampermonkey，可以直接点击下方的安装链接，Tampermonkey 会自动弹出安装确认界面：
-👉 [点击直接安装脚本](https://github.com/Beginner123418/deepseek-chat-export/raw/main/deepseek_export.user.js)
+### 第一步：安装 Tampermonkey 浏览器扩展
+为了运行此脚本，您的浏览器需要首先安装 Tampermonkey (篡改猴) 扩展程序。请根据您的浏览器选择下方链接进行安装：
+*   **Chrome 浏览器**：[Chrome 网上应用店 - Tampermonkey](https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkbhmibihijbejgghopjifhocd)
+*   **Edge 浏览器**：[Microsoft Edge 外接程序 - Tampermonkey](https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iikmkjmpaadaobahmlepohlfhondcobe)
+*   **Firefox 浏览器**：[Firefox Browser Add-ons - Tampermonkey](https://addons.mozilla.org/zh-CN/firefox/addon/tampermonkey/)
+
+安装完成后，浏览器工具栏右上角会显现一个绿色的 “黑眼圈” 篡改猴图标。
 
 ---
 
-### 方式二：手动复制安装
-1. **安装 Tampermonkey 插件**：
-   确保您的浏览器已安装 [Tampermonkey (篡改猴)](https://www.tampermonkey.net/) 浏览器扩展程序。
-2. **新建用户脚本**：
-   点击浏览器右上角的 Tampermonkey 图标，选择 **“添加新脚本”**（或进入管理面板，点击 **“+”** 号）。
-3. **复制脚本代码**：
-   打开本仓库下的 [deepseek_export.user.js](https://github.com/Beginner123418/deepseek-chat-export/blob/main/deepseek_export.user.js) 文件，复制其中的**所有**代码。
-4. **粘贴并保存**：
-   清空 Tampermonkey 编辑器中默认的模板内容，将刚才复制的代码粘贴进去。然后按键盘 `Ctrl + S` 保存，或在编辑器菜单中点击 **“文件” -> “保存”**。
-5. **刷新页面**：
-   打开 DeepSeek 对话网页，即可正常加载并使用本插件。
+### 第二步：安装本脚本（提供两种安装方式）
+
+#### 方式 A：一键自动安装（推荐，最便捷）
+如果您已完成第一步并启用了 Tampermonkey，可以直接点击下方的安装链接，Tampermonkey 将会自动弹出脚本安装确认页面：
+👉 [点击直接安装脚本](https://github.com/Beginner123418/deepseek-chat-export/raw/main/deepseek_export.user.js)
+
+在弹出的新标签页中，点击 **“安装”**（或 **“更新”**）按钮即可。
+
+#### 方式 B：手动复制创建
+1. 打开本仓库下的 [deepseek_export.user.js](https://github.com/Beginner123418/deepseek-chat-export/blob/main/deepseek_export.user.js) 代码文件。
+2. 点击右上角的 **Raw** 按钮（或直接查看纯文本），按 `Ctrl + A` 全选代码，再按 `Ctrl + C` 复制全部内容。
+3. 点击浏览器右上角的 Tampermonkey 图标，在弹出的菜单中选择 **“添加新脚本”**（或进入 Tampermonkey 控制面板点击 **“+”** 选项卡）。
+4. 在代码编辑器中，清空原本自带的默认模板内容，然后按 `Ctrl + V` 将复制的代码全部粘贴进去。
+5. 按快捷键 `Ctrl + S` 保存，或在编辑器上方菜单点击 **“文件” -> “保存”**。
+
+---
+
+### 第三步：开始使用
+打开或刷新 [DeepSeek 官方对话网页](https://chat.deepseek.com/)。等待约 2-3 秒，页面右上角就会自动浮现天蓝色背景的“📄 导出 MD”和绿色背景的“📄 导出 PDF”按钮。
 
 ## 声明
 
-本项目基于 GitHub 上一位创作者的项目。**非常抱歉，由于我的疏忽，未能记下原作者的项目地址**，谨在此表达诚挚的歉意，并衷心感谢他的无私贡献！
+本项目基于 GitHub 上一位创作者的项目。**非常抱歉，由于我的疏忽，未能记下原作者的项目地址和作者名字，在此表达诚挚的歉意！**
+
+谨在此衷心感谢他的无私奉献与杰出贡献。如果您（原作者）看到了本项目，欢迎随时联系我进行署名或添加原项目链接。
